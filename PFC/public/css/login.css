@@ -1,0 +1,82 @@
+body {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 10%;
+}
+/* Contenedor principal de la página, se asegura de que el contenido ocupe todo el espacio disponible */
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Permite que ocupe el espacio disponible */
+    padding-bottom: 60px; /* Reservamos espacio para el footer */
+    min-height: 100%; /* Asegura que la página ocupe al menos el 100% de la altura */
+}
+
+
+
+
+/* Estilo para los campos del formulario */
+label {
+    display: block;
+    margin-bottom: 2%; /* Espaciado inferior en porcentaje */
+    font-weight: bold;
+}
+
+input[type="email"],
+input[type="password"]{
+    width: 40%; /* Ancho del campo en porcentaje */
+    padding: 0.5%;
+    margin-bottom: 0.5%; /* Espaciado inferior en porcentaje */
+    border: 1px solid #077109;
+
+}
+
+/* Estilo para el botón de registro */
+input[type="submit"] {
+    background-color: #0b611f;
+    color: #fff;
+    border: none;
+    padding: 0.5% 2%; /* Espaciado interno en porcentaje */
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #03802f;
+}
+
+/* Estilo para el enlace "Ya estoy registrado" */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.col{
+    background-color: #f2fcf1; /* Fondo verde claro */
+    padding: 0.5%; /* Espaciado interno */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    margin: 3% auto; /* Centrar el contenedor horizontalmente y agregar margen superior e inferior */
+    max-width: 50%; /* Máximo ancho del contenedor en porcentaje */
+}
+
+.errores{
+    text-align: center;
+   margin-bottom: 10%; /* Espacio adicional hacia abajo */
+   margin-top: 0%;
+   margin-right: 2%;
+   list-style: none; /* Quita los puntos de la lista */
+   color: red; /* Cambia el color del texto a rojo */
+}
+
+h5{
+    text-align: center;
+    margin-top: -10%;
+    list-style: none; /* Quita los puntos de la lista */
+    color: red; /* Cambia el color del texto a rojo */
+}
+

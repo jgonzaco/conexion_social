@@ -1,0 +1,81 @@
+body {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 10%;
+}
+/* Contenedor principal de la página, se asegura de que el contenido ocupe todo el espacio disponible */
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; /* Permite que ocupe el espacio disponible */
+    padding-bottom: 60px; /* Reservamos espacio para el footer */
+    min-height: 100%; /* Asegura que la página ocupe al menos el 100% de la altura */
+}
+
+/* Estilo para los formularios */
+#buscador, #buscador1 {
+    margin-top: 1%; /* Eliminar el margen de los formularios */
+    margin-left: 1%
+}
+
+#botones input[type="submit"] {
+    padding: 8px 10px; /* Ajustamos el tamaño del padding de los botones */
+    cursor: pointer;
+}
+
+/* Reducir la distancia entre los botones de filtrado */
+.boton-derecha {
+    margin: 0; /* Eliminar cualquier margen */
+}
+
+label {
+    margin-bottom: 0.2rem; /* Reducir el margen inferior */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input[type="text"] {
+    width: 15%;
+    margin: 0; /* Eliminar el margen */
+    padding: 0.2rem; /* Reducir padding del campo */
+    border: 1px solid #077109;
+}
+
+input[type="submit"] {
+    background-color: #0b611f;
+    color: #fff;
+    border: none;
+    padding: 0.5% 2%;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #03802f;
+}
+
+/* Estilo para la tabla de resultados */
+.table {
+    width: 98%;
+    text-align: center;
+    max-height: 60vh; /* Limita la altura máxima de la tabla */
+    margin-left: 1%;
+}
+
+/* Estilo para los errores */
+.errores {
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 0%;
+    margin-right: 2%;
+    list-style: none;
+    color: red;
+}
+
+/* Ocultar columna de seguimiento */
+th:nth-child(15), td:nth-child(15) {
+    display: none;
+}
+
+
+

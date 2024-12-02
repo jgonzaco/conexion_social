@@ -1,0 +1,97 @@
+/* Mantiene la estructura de altura completa para el footer pegajoso */
+ body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-fluid {
+    flex: 1; /* Permite que el contenido ocupe el espacio disponible */
+    display: flex;
+    flex-direction: column;
+}
+
+#banda-superior {
+    padding: 1.7%;
+}
+
+#cerrar {
+    text-align: center;
+}
+
+#chinchetas{
+    text-align: center; /* Centra el texto dentro del botón */
+    margin-top: 9%; /* Espacio superior */
+    margin-bottom: 2%; /* Espacio inferior */
+    color: #333; /* Color del texto */
+    padding: 3% 6%; /* Espacio interno del botón */
+    border: none; /* Sin borde */
+    font-size: 170%; /* Tamaño de fuente */
+    cursor: pointer; /* Cursor al pasar por encima */
+    transition: background-color 0.3s; /* Transición suave de color de fondo */
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilo para el botón de registro */
+input[type="submit"] {
+    border: none; 
+    color: white; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    display: inline-flex;
+    background-image: linear-gradient(to right, #28a745, #56c150);
+}
+
+input[type="submit"]:hover {
+    background-image: linear-gradient(to right, #34b556, #56c150)
+}
+
+#dos {
+    display: inline;
+    margin-top: 3%;
+    margin-left: 20%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%; /* Tamaño de fuente grande */
+    font-weight: bold; /* Fuente en negrita */
+
+}
+
+#tres {
+    margin-top: 3%;
+    margin-left: 10%;
+    color: #333;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100%; /* Tamaño de fuente más grande */
+    font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para los botones */
+#cuatro,
+#cinco,
+#seis,
+#siete {
+    text-align: center; /* Centra el texto dentro del botón */
+    margin-top: 9%; /* Espacio superior */
+    margin-bottom: 2%; /* Espacio inferior */
+    color: #333; /* Color del texto */
+    padding: 3% 6%; /* Espacio interno del botón */
+    border: none; /* Sin borde */
+    font-size: 170%; /* Tamaño de fuente */
+    cursor: pointer; /* Cursor al pasar por encima */
+    transition: background-color 0.3s; /* Transición suave de color de fondo */
+}
+
+
+/* Estilo específico para el botón Base de datos */
+#cuatro {
+    max-width: 100%; /* Ancho máximo del botón */
+}
+
+/* Estilo específico para los botones adicionales */
+#cinco,
+#seis,
+#siete {
+    max-width: 70%; /* Ancho máximo del botón */
+}
