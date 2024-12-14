@@ -1,0 +1,41 @@
+/* Banda superior y estilo del encabezado */
+#banda-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aafac2;
+    height: 110px;
+}
+
+/*Estilo logo*/
+#banda-superior img {
+    width: 250px;
+    height: auto;
+    margin-top: 1%;
+    margin-left: 10%;
+}
+
+/*Estilo Encabezado*/
+#banda-superior #insertar {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Botón de volver */
+#volver {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#volver a {
+    text-decoration: none;
+}
+
+#volver i {
+    font-size: 170%;
+    color: black;
+}

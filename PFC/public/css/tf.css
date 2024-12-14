@@ -1,0 +1,76 @@
+/* Estilo del cuerpo de la página */
+body {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 10%;
+    }
+
+#buscadorCasosActivos input[type="submit"] {/* Estilo botón casos activos */
+    background-color: #0b611f;
+    color: #fff;
+    border: none;
+    padding: 3% 5%;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-top: 25%;
+}
+
+/* Estilo contenedor del buscador */
+#buscador{/* Estilo buscador */
+    margin-top: 2%;
+    margin-left: 1.5%;
+}
+
+label {/* Estilo para las etiquetas de los formularios */
+    margin-bottom: 1%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input[type="text"]{/* Estilo campos de texto */
+    width: 20%;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+    border: 1px solid #077109;
+}
+
+/* Estilo para el botón de registro */
+input[type="submit"] {
+    background-color: #0b611f;
+    color: #fff;
+    border: none;
+    padding: 0.5% 2%;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+/* Efecto para los botones */
+input[type="submit"]:hover {
+    background-color: #03802f;
+}
+
+/*Estilo de la tabla*/
+.table {
+    width: 98%;
+    text-align: center;
+    max-height: 60vh;
+    margin-left: 1%;
+    margin-top: 60px;
+}
+
+/*Estilo errores*/
+.errores,p {
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 0%;
+    margin-right: 2%;
+    list-style: none;
+    color: red;
+}
+
+/*Oculta columna seguimiento*/
+th:nth-child(13), td:nth-child(13) {
+    display: none;
+}
+
+

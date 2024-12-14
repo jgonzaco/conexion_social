@@ -1,0 +1,87 @@
+/* Estilo del cuerpo de la página */
+body {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 10%;
+}
+/* Contenedor principal de la página, se asegura de que el contenido ocupe todo el espacio disponible */
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-bottom: 60px;
+    min-height: 100%;
+}
+
+/* Estilo para los formularios */
+#buscador, #buscador1 {
+    margin-top: 1%;
+    margin-left: 1%
+}
+
+/* Estilo para los botones */
+#botones input[type="submit"] {
+    padding: 8px 10px;
+    cursor: pointer;
+}
+
+/* Reducir la distancia entre los botones de filtrado */
+.boton-derecha {
+    margin: 0;
+}
+
+/* Estilo texto expediente y tecnic@/ts*/
+label {
+    margin-bottom: 0.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Estilo caja de texto */
+input[type="text"] {
+    width: 15%;
+    margin: 0;
+    padding: 0.2rem;
+    border: 1px solid #077109;
+}
+
+/* Estilo para los submit */
+input[type="submit"] {
+    background-color: #0b611f;
+    color: #fff;
+    border: none;
+    padding: 0.5% 2%;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+/* Efecto para todos botones */
+input[type="submit"]:hover {
+    background-color: #03802f;
+}
+
+/* Estilo para la tabla de resultados */
+.table {
+    width: 98%;
+    text-align: center;
+    max-height: 60vh;
+    margin-left: 1%;
+}
+
+/* Estilo para los errores */
+.errores {
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 0%;
+    margin-right: 2%;
+    list-style: none;
+    color: red;
+}
+
+/* Ocultar columna de seguimiento */
+th:nth-child(15), td:nth-child(15) {
+    display: none;
+}
+
+
+

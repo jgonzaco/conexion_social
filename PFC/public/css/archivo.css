@@ -1,0 +1,61 @@
+/* Estilo del cuerpo de la página */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contenedor principal de la página, se asegura de que el contenido ocupe todo el espacio disponible */
+.container-fluid {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Ajuste del footer para que siempre esté al fondo */
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/* Banda superior y estilo del encabezado */
+#banda-superior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #aafac2;
+    padding: 1.4%;
+}
+
+/*Estilo logo*/
+#banda-superior img {
+    width: 35%;
+    height: auto;
+    margin-top: 1%;
+}
+
+/*Estilo enlace*/
+#banda-superior a {
+    display: inline;
+    margin-top: 3%;
+    margin-left: 70%;
+}
+
+/*Estilo título*/
+.titulo {
+    margin-top: 10%;
+    color: #333;
+    font-size: 400%;
+    font-weight: bold;
+
+}
+
+/* Estilo inicio de sesión */
+.btn-success {
+    font-size: 130%;
+    padding: 1% 4%;
+    margin-top: 5%;
+}

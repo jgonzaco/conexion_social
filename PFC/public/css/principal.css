@@ -1,0 +1,51 @@
+/* Estilo del cuerpo de la página */
+ body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contenedor principal de la página, se asegura de que el contenido ocupe todo el espacio disponible */
+.container-fluid {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilo cerrar */
+#cerrar {
+    text-align: center;
+}
+
+/* Estilo chinchetas */
+#chinchetas{
+    text-align: center;
+    margin-top: 9%;
+    margin-bottom: 2%;
+    color: #333;
+    padding: 3% 6%;
+    border: none;
+    font-size: 170%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilo para el botón de registro */
+input[type="submit"] {
+    border: none; 
+    color: white; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    display: inline-flex;
+    background-image: linear-gradient(to right, #28a745, #56c150);
+}
+
+/* Efecto para los botones submit*/
+input[type="submit"]:hover {
+    background-image: linear-gradient(to right, #34b556, #56c150)
+}
+
+

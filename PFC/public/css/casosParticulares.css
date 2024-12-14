@@ -1,0 +1,87 @@
+/* Estilo del cuerpo de la página */
+body {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 10%;
+}
+
+/* Contenedor principal de la página, se asegura de que el contenido ocupe todo el espacio disponible */
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-bottom: 60px;
+    min-height: 100%;
+}
+
+/* Estilo buscador casos activos */
+#buscadorCasosActivos input[type="submit"] {
+    background-color: #0b611f;
+    color: #fff;
+    border: none;
+    padding: 3% 5%;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-top: 59px;
+}
+
+/* Estilo para los campos del formulario */
+#buscador{
+    margin-top: 1%;
+    margin-left: 0.5%;
+}
+
+/* Estilo para las etiquetas de los formularios */
+label {
+    margin-bottom: 1%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Estilo campos de texto */
+input[type="text"]{
+    width: 20%;
+    margin-left: 0.5%;
+    margin-bottom: 0.5%;
+    border: 1px solid #077109;
+}
+
+/* Estilo para el botón de registro */
+input[type="submit"] {
+    background-color: #0b611f;
+    color: #fff;
+    border: none;
+    padding: 0.5% 2%;
+    border-radius: 1px;
+    cursor: pointer;
+}
+
+/* Efecto para los botones */
+input[type="submit"]:hover {
+    background-color: #03802f;
+}
+
+/*Estilo de la tabla*/
+.table {
+    width: 98%;
+    text-align: center;
+    max-height: 60vh;
+    margin-left: 1%;
+}
+
+/*Estilo errores*/
+.errores,p {
+    text-align: center;
+    margin-bottom: 10%;
+    margin-top: 0%;
+    margin-right: 2%;
+    list-style: none;
+    color: red;
+}
+
+/*Oculata columna seguimiento*/
+th:nth-child(13), td:nth-child(13) {
+    display: none;
+}
+
+
