@@ -1,0 +1,75 @@
+/* Estilo del cuerpo de la página */
+body {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 10%;
+}
+/* Contenedor principal de la página, se asegura de que el contenido ocupe todo el espacio disponible */
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-bottom: 60px;
+    min-height: 100%;
+}
+
+/* Estilo encabezado */
+.text-center h1 {
+    margin-bottom: 1%;
+    margin-top: 2.5%;
+}
+
+/* Estilo para los campos del formulario */
+label {
+    display: block;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+/* Estilo para los textos, email, números y fecha */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"] {
+    width: 35%;
+    padding: 0.5%;
+    margin-bottom: 0.5%;
+    border: 1px solid #077109;
+
+}
+
+/* Estilo para el botón de registro */
+input[type="submit"] {
+    background-color: #0b611f;
+    color: #fff;
+    border: none;
+    padding: 0.5% 2%;
+    border-radius: 1px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* Efecto para botones submit*/
+input[type="submit"]:hover {
+    background-color: #03802f;
+}
+
+/* Estilo columnas*/
+.col{
+    background-color: #f2fcf1;
+    padding: 0.5%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 3% auto;
+    max-width: 50%;
+}
+
+/*Estilo errores*/
+.errores{
+    text-align: center;
+   margin-bottom: 10%;
+   margin-top: 0%;
+   margin-right: 2%;
+   list-style: none;
+   color: red;
+}

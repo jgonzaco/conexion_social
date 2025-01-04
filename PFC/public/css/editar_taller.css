@@ -1,0 +1,61 @@
+/* Estilo del cuerpo de la página */
+body {
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 10%;
+}
+/* Contenedor principal de la página, se asegura de que el contenido ocupe todo el espacio disponible */
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-bottom: 60px;
+    min-height: 100%;
+}
+
+/* Estilo para los campos del formulario */
+.col-lg-12 {
+    background-color: #f2fcf1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 3% auto;
+    max-width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+label {
+    display: block;
+    margin-bottom: 1%;
+    font-weight: bold;
+}
+
+/* Estilo para los campos de texto y fecha */
+input[type="text"],
+input[type="date"] {
+    text-align: center;
+    width: 50%;
+    padding: 0.5%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    border: 1px solid #077109;
+    border-radius: 5px;
+}
+
+/* Estilo para el botón de registro */
+button[type="submit"] {
+    background-color: #0b611f;
+    color: #fff;
+    border: none;
+    padding: 0.5% 2%;
+
+}
+
+/* Estilo de los errores*/
+li {
+    text-align: center;
+    margin-right: 2%;
+    list-style: none;
+    color: red;
+}
